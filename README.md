@@ -14,6 +14,7 @@ Esta carpeta se sirve desde GitHub Pages, mediante la rama principal del reposit
 - `assets/360-Consulting-Baktara-Arceo.vcf`: contacto con foto. Actualiza este archivo si cambian los datos.
 - `assets/baktara-arceo.jpg`: foto extraída de la referencia proporcionada.
 - `assets/360-logo.svg`: logo vectorizado a partir de la referencia; mantiene la forma original y escala sin pixelarse. `assets/360-logo.jpg` conserva el recorte original.
+- `assets/360-wallet-logo.png`: exportación de 480 × 480 píxeles del logo vectorial para preparar el pase de Wallet. El botón se integrará cuando esté disponible el pase firmado.
 
 ## Comprobaciones locales
 
