@@ -12,7 +12,8 @@ Esta carpeta se sirve desde GitHub Pages, mediante la rama principal del reposit
 - `assets/styles.css`: diseño.
 - `assets/card.js`: QR, compartir y efectos. La URL se adapta al alojamiento; `fallbackUrl` se usa al abrir archivos locales.
 - `assets/360-Consulting-Baktara-Arceo.vcf`: contacto con foto. Actualiza este archivo si cambian los datos.
-- `assets/baktara-arceo.jpg` y `assets/360-logo.jpg`: foto y logo extraídos de la referencia proporcionada.
+- `assets/baktara-arceo.jpg`: foto extraída de la referencia proporcionada.
+- `assets/360-logo.svg`: logo vectorizado a partir de la referencia; mantiene la forma original y escala sin pixelarse. `assets/360-logo.jpg` conserva el recorte original.
 
 ## Comprobaciones locales
 
