@@ -14,7 +14,16 @@ Esta carpeta se sirve desde GitHub Pages, mediante la rama principal del reposit
 - `assets/360-Consulting-Baktara-Arceo.vcf`: contacto con foto. Actualiza este archivo si cambian los datos.
 - `assets/baktara-arceo.jpg`: foto extraída de la referencia proporcionada.
 - `assets/360-logo.svg`: logo vectorizado a partir de la referencia; mantiene la forma original y escala sin pixelarse. `assets/360-logo.jpg` conserva el recorte original.
-- `assets/360-wallet-logo.png`: exportación de 480 × 480 píxeles del logo vectorial para preparar el pase de Wallet. El botón se integrará cuando esté disponible el pase firmado.
+- `assets/360-wallet-logo.png`: exportación de 480 × 480 píxeles del logo vectorial para el pase de Wallet.
+- `assets/360-Consulting-Baktara-Arceo.pkpass`: pase firmado por WalletWallet y proporcionado para esta tarjeta. El botón «Guardar en Apple Wallet» enlaza directamente con este archivo.
+
+## Apple Wallet
+
+El pase contiene el logo de 360, el nombre, el teléfono y un QR que abre esta tarjeta. Se publica sin modificar los bytes del archivo firmado. Cualquier cambio del contenido requiere generar un nuevo pase firmado.
+
+Se comprobaron los hashes del manifiesto, la firma CMS, la cadena hasta Apple Root CA y la coincidencia del identificador y del equipo con el certificado. El pase no tiene fecha de caducidad configurada; el certificado de firma actual vence el 20 de enero de 2027.
+
+Para comprobar la instalación en un iPhone, abre la tarjeta en Safari, pulsa «Guardar en Apple Wallet» y confirma «Agregar». Esta instalación requiere una prueba en el dispositivo. Para Google Wallet hace falta su propio enlace de guardado; el archivo `.pkpass` corresponde a Apple Wallet.
 
 ## Comprobaciones locales
 

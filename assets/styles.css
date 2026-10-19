@@ -57,9 +57,11 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
 .btn-save { flex: 1.17; background: linear-gradient(120deg, #f234b2, #f962c5); color: #26061d; border-color: transparent; }
 .btn-save:hover { background: #ff87d7; }
 .btn-qr { flex: 1; background: rgba(255,255,255,.025); }
-.btn-qr svg, .btn-share svg { color: var(--brand); }
-.btn-qr:hover, .btn-share:hover, .btn-back:hover { background: rgba(242,52,178,.09); border-color: var(--brand); }
+.btn-qr svg, .btn-share svg, .btn-wallet svg { color: var(--brand); }
+.btn-qr:hover, .btn-share:hover, .btn-wallet:hover, .btn-back:hover { background: rgba(242,52,178,.09); border-color: var(--brand); }
 .btn-share { width: 100%; min-height: 47px; margin-top: 10px; font-size: 13px; }
+.btn-wallet { width: 100%; margin-top: 10px; font-size: 13px; background: rgba(242,52,178,.04); }
+.wallet-note { margin-top: 6px; color: var(--muted); font-size: 10px; line-height: 1.5; text-align: center; }
 .back-body { flex: 1; padding: 61px 25px 27px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
 .eyebrow { color: var(--brand-light); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; margin-bottom: 9px; }
 .back h2 { font-family: Sora, system-ui, sans-serif; font-size: 25px; letter-spacing: -.04em; }
